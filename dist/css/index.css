@@ -11,7 +11,7 @@
 
 #navbarCollapse a {
   letter-spacing: 0.5px;
-  color: #fff;}
+  color: #ddd;}
 
 #navbarCollapse a:hover {
-  transform: scale(1.1);}
+  color: white;}
