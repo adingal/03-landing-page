@@ -15,3 +15,30 @@
 
 #navbarCollapse a:hover {
   color: white;}
+
+#overview {
+  background: url('../img/email-pattern.png');
+  margin-top: 100px;}
+
+#overview h1 {
+  font-family: 'Merienda', 'Mali', cursive;
+  font-size: 24px;
+  color: #23483C;}
+
+#overview ul {
+  min-width: 280px;
+  max-width: 280px;}
+
+#overview li {
+  background-image: url('../img/list.png');
+  background-repeat: no-repeat;
+  background-position: 1% 50%;
+  background-size: 18px;
+  background-color: rgba(255,255,255,0);
+  font-family: 'Open Sans', 'Roboto', Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  border: none;
+  padding: 12px 0px 12px 30px;}
+
+#main-form input {
+  max-width: 300px;}

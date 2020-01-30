@@ -6,16 +6,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta name="author" content="Alex Dingal">
-  <meta name="description" content="Survey form project">
+  <meta name="description" content="Landing page project">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Mali:700|Merienda:700|Open+Sans:400,700|Roboto:400,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./css/index.css">
-  <title>Survey Form</title>
+  <title>Landing Page</title>
 </head>
 
 <body>
   <!-- main header -->
-  <nav class="navbar navbar-expand-md navbar-light fixed-top pb-lg-0" id="main-nav">
+  <nav id="main-nav" class="navbar navbar-expand-md navbar-light fixed-top pb-lg-0">
     <div class="container">
       <a href="index.html" class="navbar-brand text-white" id="brand"><img id="header-img" width="74" alt="Los K Morales Logo 2013" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Los_K_Morales_Logo_2013.svg/64px-Los_K_Morales_Logo_2013.svg.png"> <span class="d-none d-md-inline">Hosting</span></a>
       <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
@@ -37,6 +37,28 @@
     </div>
   </nav>
 
+  <!-- overview -->
+  <section id="overview" class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 mx-auto">
+          <h1 class="text-center">Start your own website</h1>
+          <ul class="list-group mx-auto">
+            <li class="list-group-item">Up to date database support</li>
+            <li class="list-group-item">One-click file transfer</li>
+            <li class="list-group-item">99.99% uptime guaranteed</li>
+            <li class="list-group-item">Friendly representatives</li>
+          </ul>
+          <form id="main-form" action="https://www.freecodecamp.com/email-submit">
+            <div class="form-group d-flex flex-column align-items-center mt-4">
+              <input class="form-control text-center" type="email" id="email" placeholder="Email" name="email" required>
+              <input class="btn btn-success mt-2" type="submit" id="submit" value="Sign up">
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <!-- scripts -->
   <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
