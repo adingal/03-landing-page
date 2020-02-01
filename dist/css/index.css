@@ -46,3 +46,11 @@
 
 #main-form input {
   max-width: 300px;}
+
+#main-form input[type="submit"] {
+  background-color: #ff0080;
+  padding: 6px 15px;
+  color: #fff;}
+
+#main-form input[type="submit"]:hover {
+  transform: scale(1.1);}
