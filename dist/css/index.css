@@ -12,12 +12,12 @@
 #navbarCollapse a {
   letter-spacing: 0.5px;
   margin-bottom: 5px;
-  border-radius: 20px;
+  border-radius: 15px;
   padding: 4px 12px;
-  color: #ddd;}
+  color: #fff;}
 
 #navbarCollapse a:hover {
-  background-color: #ddd;
+  background-color: #fff;
   color: #ff0080;}
 
 #overview {
