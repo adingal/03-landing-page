@@ -24,7 +24,8 @@
   background: url('../img/email-pattern.png');
   margin-top: 100px;}
 
-#overview h1 {
+#overview h1,
+#how h1 {
   font-family: 'Merienda', 'Mali', cursive;
   font-size: 24px;
   color: #23483C;}
@@ -54,3 +55,12 @@
 
 #main-form input[type="submit"]:hover {
   transform: scale(1.1);}
+
+#how iframe {
+  max-width: 100%;}
+
+@media (min-width: 576px) {
+  #how iframe {
+  min-width: 500px;
+  min-height: 280px;}   
+}
