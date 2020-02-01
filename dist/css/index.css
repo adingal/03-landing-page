@@ -11,10 +11,14 @@
 
 #navbarCollapse a {
   letter-spacing: 0.5px;
+  margin-bottom: 5px;
+  border-radius: 20px;
+  padding: 4px 12px;
   color: #ddd;}
 
 #navbarCollapse a:hover {
-  color: white;}
+  background-color: #ddd;
+  color: #ff0080;}
 
 #overview {
   background: url('../img/email-pattern.png');
