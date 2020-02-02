@@ -33,6 +33,7 @@ body {
 #pricing h1 {
   font-family: 'Merienda', 'Mali', cursive;
   font-size: 28px;
+  margin-bottom: 20px;
   color: #23483C;}
 
 #overview ul {
@@ -69,7 +70,6 @@ body {
 
 #pricing h2 {
   font-size: 24px;}
-
 
 @media (min-width: 576px) {
   #how iframe {
