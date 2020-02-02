@@ -20,8 +20,12 @@
   background-color: #fff;
   color: #ff0080;}
 
-#overview {
+body {
   background: url('../img/email-pattern.png');
+  background-repeat: repeat;
+  background-attachment: fixed;}
+
+#overview {
   margin-top: 100px;}
 
 #overview h1,
