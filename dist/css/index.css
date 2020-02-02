@@ -32,7 +32,7 @@ body {
 #how h1,
 #pricing h1 {
   font-family: 'Merienda', 'Mali', cursive;
-  font-size: 28px;
+  font-size: 24px;
   margin-bottom: 20px;
   color: #23483C;}
 
@@ -66,10 +66,28 @@ body {
   max-width: 100%;}
 
 #pricing .card {
-  background-color: #00ff00;}
+  background-color: #00ff00;
+  border-radius: 0 10px;
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.5);}
+
+#pricing a {
+  text-decoration: none;}
 
 #pricing h2 {
-  font-size: 24px;}
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #075a0e;}
+
+#pricing h2:hover {
+  transform: scale(1.1);}
+
+#pricing #recommended {
+  background-color: #075a0e;
+  border: 1px solid #fff;
+  padding: 6px 15px;
+  border-radius: 4px;
+  color: #fff;}
 
 @media (min-width: 576px) {
   #how iframe {
