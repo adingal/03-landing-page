@@ -56,10 +56,11 @@ body {
   max-width: 300px;}
 
 #main-form input[type="submit"] {
-  animation: wiggle 400ms 3s 8 ease-out none;
+  width: 100px;
   background-color: #ff0080;
   padding: 6px 15px;
-  color: #fff;}
+  color: #fff;
+  animation: wiggle 400ms 3s 8 ease-out none;}
 
 #main-form input[type="submit"]:hover {
   transform: scale(1.1);}
