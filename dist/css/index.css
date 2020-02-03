@@ -56,6 +56,7 @@ body {
   max-width: 300px;}
 
 #main-form input[type="submit"] {
+  animation: wiggle 400ms 3s 8 ease-out none;
   background-color: #ff0080;
   padding: 6px 15px;
   color: #fff;}
@@ -93,4 +94,16 @@ body {
   #how iframe {
   min-width: 500px;
   min-height: 280px;}   
+}
+
+@keyframes wiggle {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  50% {
+    transform: rotateZ(-8deg);
+  }
+  100% {
+    transform: rotateZ(8deg);
+  }
 }
