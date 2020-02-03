@@ -60,7 +60,7 @@ body {
   background-color: #ff0080;
   padding: 6px 15px;
   color: #fff;
-  animation: wiggle 400ms 3s 8 ease-out none;}
+  animation: wiggle 400ms 1500ms 8 ease-out none;}
 
 #main-form input[type="submit"]:hover {
   transform: scale(1.1);}
@@ -69,32 +69,33 @@ body {
   max-width: 100%;}
 
 #pricing .card {
-  background-color: #00ff00;
-  box-shadow: 2px 2px 4px rgba(0,0,0,0.5);}
+  background-color: #075a0e;
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+  color: #fff;}
 
 #pricing .card:hover {
-  background-color: #075a0e;
-  color: #fff;}
+  background-color: #00ff00;
+  transform: scale(1.1);
+  color: #075a0e;
+  z-index: 100;}
 
 #pricing a {
   text-decoration: none;}
 
 #pricing h2 {
+  background-color: #ff0080;
   font-size: 20px;
-  font-weight: bold;
   margin-bottom: 20px;
-  color: #075a0e;}
-
-#pricing h2:hover {
-  transform: scale(1.1);
-  color: #fff;}
-
-#pricing #recommended {
-  background-color: #075a0e;
   border: 1px solid #fff;
   padding: 6px 15px;
   border-radius: 4px;
   color: #fff;}
+
+#pricing h2:hover {
+  transform: scale(1.1);}
+
+#pricing #recommended {
+  padding: 10px 15px;}
 
 @media (min-width: 576px) {
   #how iframe {
