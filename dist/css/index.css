@@ -75,9 +75,7 @@ body {
 
 #pricing .card:hover {
   background-color: #00ff00;
-  transform: scale(1.1);
-  color: #075a0e;
-  z-index: 100;}
+  color: #075a0e;}
 
 #pricing a {
   text-decoration: none;}
@@ -100,8 +98,7 @@ body {
 @media (min-width: 576px) {
   #how iframe {
   min-width: 500px;
-  min-height: 280px;}   
-}
+  min-height: 280px;}}
 
 @keyframes wiggle {
   0% {
@@ -112,5 +109,4 @@ body {
   }
   100% {
     transform: rotateZ(5deg);
-  }
-}
+  }}
