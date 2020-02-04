@@ -1,3 +1,8 @@
+body {
+  background: url('../img/email-pattern.png');
+  background-repeat: repeat;
+  background-attachment: fixed;}
+
 #main-nav,
 #main-footer {
   background-color: #ff0080;}
@@ -20,11 +25,6 @@
 #navbarCollapse a:hover {
   background-color: #fff;
   color: #ff0080;}
-
-body {
-  background: url('../img/email-pattern.png');
-  background-repeat: repeat;
-  background-attachment: fixed;}
 
 #overview {
   margin-top: 100px;}
