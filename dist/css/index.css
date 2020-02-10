@@ -5,7 +5,7 @@ body {
 
 #main-nav,
 #main-footer {
-  background-color: #ff0080;}
+  background-color: rgba(255,0,128,0.8);}
 
 #brand {
   font-family: 'Merienda', 'Mali', cursive;
