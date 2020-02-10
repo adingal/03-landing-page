@@ -69,12 +69,13 @@ body {
   max-width: 100%;}
 
 #pricing .card {
-  background-color: #075a0e;
+  background-color: #00dd00;
   box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
-  color: #fff;}
+  color: #075a0e;}
 
 #pricing .card:hover {
   background-color: #00ff00;
+  border: 1px solid #fff;
   color: #075a0e;}
 
 #pricing a {
